@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     let imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() 
 
         imagePicker.delegate = self
         imagePicker.sourceType = .camera  //when using on simulator you will need to use the .photoLobrary option instead of .camera
